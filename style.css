@@ -1,0 +1,123 @@
+body {
+    background-color: rgba(253, 244, 244, 0.488);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    background-color: rgb(127, 123, 119);
+    border-radius: 18px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 25px;
+}
+p.intro-text{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 20px;
+}
+.highlight{
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+}
+.container-learn-more-btn {
+    text-align: center; /* Center horizontally */
+    padding-top: 18px;
+}
+
+.learn-more {
+    background-color: orangered;
+    font-size: 25px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.learn-more:hover {
+    background-color: darkorange;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.custom-img {
+    padding: 50px;
+    float: inline-end;
+    width: 700px;
+}
+
+.for-h2{
+    padding-left: 50px;
+    padding-top: 150px;
+    font-size: 25px;
+}
+.text-container{
+    text-align: center;
+    font-size: 22px;
+    padding-left: 10px;
+}
+.container-about-us {
+    background-color: aliceblue;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 4px 10px rgba(0.1, 0, 0, 0.2);
+    border-radius: 15px;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+.container-about-us h2{
+    color: rgb(124, 124, 217);
+    font-size: 35px;
+}
+
+.container-about-us p{
+    font-size: 20px;
+    font-weight: 550;
+}
