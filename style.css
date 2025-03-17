@@ -13,7 +13,7 @@ header {
 .container {
     display: flex;
     align-items: center;
-    max-width: px;
+    max-width: 1200px;
     margin: auto;
     justify-content: space-between;
     padding: 0 20px;
@@ -40,27 +40,41 @@ nav a {
     transition: 0.3s;
 }
 
-nav a:hover{
+nav a:hover {
     background-color: rgb(127, 123, 119);
     border-radius: 18px;
 }
 
-h1{
+.hero {
     text-align: center;
-    padding-top: 25px;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #ff6f61, #ffcc00);
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
 }
-p.intro-text{
-    text-align: center;
-    padding-top: 25px;
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+p.intro-text {
     font-size: 20px;
+    margin-bottom: 30px;
 }
-.highlight{
-    background-color: orangered;
+
+.highlight {
+    background-color: #ff6f61;
     color: white;
     border-radius: 5px;
+    padding: 2px 5px;
 }
+
 .container-learn-more-btn {
-    text-align: center; /* Center horizontally */
+    text-align: center; 
     padding-top: 18px;
 }
 
@@ -79,6 +93,26 @@ p.intro-text{
 .learn-more:hover {
     background-color: darkorange;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+/* Shape Divider */
+
+.custom-shape-divider-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.custom-shape-divider-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(144% + 1.3px);
+    height: 100px;
+    transform: rotate(180deg); /* Flip the shape */
+}
+.custom-shape-divider-bottom .shape-fill {
+    fill: #FFFFFF; /* Adjust to match the next section */
 }
 
 .custom-img {
@@ -109,6 +143,7 @@ p.intro-text{
     max-width: 800px;
     padding: 20px;
     text-align: center;
+    transition: transform 0.3s ease-in-out;
     clear: both;
 }
 
@@ -120,4 +155,49 @@ p.intro-text{
 .container-about-us p{
     font-size: 20px;
     font-weight: 550;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: #f4f5f9;
+    border-radius: 13px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    clear: both;
+    height: 230px;
+}
+
+.main-title {
+    position: absolute;
+    top: -15px; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: #11232d;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.service-box {
+    border-radius: 15px;
+    background-color: #11232d;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%; 
+    min-width: 250px;
+}
+
+.service-box h2, 
+.service-box p {
+    color: #ffffff;
+}
+
+.container-about-us:hover{
+    transform: translateY(-5px);
+
 }
