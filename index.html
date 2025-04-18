@@ -1,116 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Design</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Design</title>
+  <link rel="stylesheet" href="style.css">
+
+
 </head>
+
 <body>
 
-    <header>
-        <div class="container">
-            <div class="logo">Your Logo</div>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Services</a>
-                <a href="#">Contact Us</a>
-            </nav>
-        </div>
-    </header>
 
-    <section class="hero">
-        <h1>Welcome To Our Website</h1>
-        <p class="intro-text">
-            We provide the best solutions for your business. Explore our services and take your brand to the next level!  
-            <br>Get started today and grow with us! Click below to <span class="highlight">learn more.</span>
+  <header>
+    <div class="container">
+      <div class="logo">Your Logo</div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome To Our Website</h1>
+    <p class="intro-text">
+      We provide the best solutions for your business. Explore our services and take your brand to the next level!
+      <br>Get started today and grow with us! Click below to <span class="highlight">learn more.</span>
+    </p>
+
+    <div class="container-learn-more-btn">
+      <button class="learn-more">Learn More</button>
+    </div>
+
+    <!-- Shape Divider inside Hero Section -->
+    <div class="custom-shape-divider-bottom">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          class="shape-fill"></path>
+      </svg>
+    </div>
+
+  </section>
+
+  <img src="https://onlinejpgtools.com/images/jpg/illustrations/brighten-jpg.png" class="custom-img">
+
+  <div class="for-h2">
+    <h2>Empowering Your Digital Presence</h2>
+  </div>
+
+  <div class="text-container">
+    <p>We create innovative digital solutions to help businesses grow and stand out. Our expertise in design and
+      technology ensures a seamless experience, bringing your ideas to life. Let’s build something amazing together!</p>
+  </div>
+
+  <div class="services-section">
+    <h2 class="main-title">Our Services</h2>
+
+    <div class="plans-container">
+      <div class="plan-box">
+        <h3>Web Design</h3>
+        <p class="price">₹999</p>
+        <ul>
+          <li>✅ Custom & Responsive Design</li>
+          <li>✅ Mobile-Friendly Layout</li>
+          <li>✅ Fast Loading Speed</li>
+          <li>✅ Basic SEO Optimization</li>
+          <li>✅ Contact Form Integration</li>
+        </ul>
+        <button class="choose-btn">Choose Plan</button>
+      </div>
+
+      <div class="plan-box">
+        <h3>SEO Optimization</h3>
+        <p class="price">₹1999</p>
+        <ul>
+          <li>✅ On-Page SEO Optimization</li>
+          <li>✅ Keyword Research & Analysis</li>
+          <li>✅ Mobile Optimization</li>
+          <li>✅ High-Quality Backlinks</li>
+          <li>✅ SEO-Friendly URL Structure</li>
+        </ul>
+        <button class="choose-btn">Choose Plan</button>
+      </div>
+
+      <div class="plan-box">
+        <h3>Digital Marketing</h3>
+        <p class="price">₹2999</p>
+        <ul>
+          <li>✅ Social Media Marketing</li>
+          <li>✅ Search Engine Marketing (SEM)</li>
+          <li>✅ Google Ads Campaigns</li>
+          <li>✅ Email Marketing Automation</li>
+          <li>✅ Analytics & Reporting</li>
+        </ul>
+        <button class="choose-btn">Choose Plan</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-about-us">
+    <h2>About Us</h2>
+    <p>We are a team of passionate, forward-thinking individuals dedicated to delivering high-quality solutions that
+      make a difference. With a strong focus on innovation, creativity, and customer satisfaction, we strive to push
+      boundaries and exceed expectations. Our mission is to craft meaningful, impactful experiences that not only meet
+      our clients’ needs but also inspire growth and transformation.</p>
+
+  </div>
+
+
+  <section class="contact-section">
+    <h1 class="contact-heading">Let's Connect</h1>
+
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="John Doe" />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+      </div>
+
+      <div class="form-group">
+        <label for="comment">Your Message</label>
+        <textarea id="comment" name="comment" rows="5" placeholder="I'd love to talk about..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" value="Send Message" />
+      </div>
+    </form>
+  </section>
+
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>About Us</h3>
+        <p>We provide quality web development resources, tutorials, and design inspiration for developers and designers.
         </p>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Contact</h3>
+        <ul>
+          <li>Email: hello@example.com</li>
+          <li>Phone: +123 456 7890</li>
+          <li>Address: 123 Main Street, City</li>
+        </ul>
+      </div>
+      
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 Your Company. All rights reserved.
+    </div>
+  </footer>
 
-        <div class="container-learn-more-btn">
-            <button class="learn-more">Learn More</button>
-        </div>
 
-        <!-- Shape Divider inside Hero Section -->
-        <div class="custom-shape-divider-bottom">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-            </svg>
-        </div>
-
-    </section>
-
-    <img src="https://onlinejpgtools.com/images/jpg/illustrations/brighten-jpg.png" class="custom-img">
-        
-        <div class="for-h2">
-        <h2>Empowering Your Digital Presence</h2>
-        </div>
-
-        <div class="text-container">
-            <p>We create innovative digital solutions to help businesses grow and stand out. Our expertise in design and technology ensures a seamless experience, bringing your ideas to life. Let’s build something amazing together!</p>
-        </div>
-
-        <div class="services-container">
-            <h2 class="main-title">Our Services</h2>
-
-            <div class="service-box">
-                <h2>Web Design</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, tenetur. Placeat unde earum recusandae beatae corrupti nobis sapiente sed magnam.</p>
-            </div>
-            <div class="service-box">
-                <h2>SEO Optimization</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, tenetur. Placeat unde earum recusandae beatae corrupti nobis sapiente sed magnam.</p>
-            </div>
-            <div class="service-box full-width">
-                <h2>Digital Marketing</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, tenetur. Placeat unde earum recusandae beatae corrupti nobis sapiente sed magnam.</p>
-            </div>
-        </div>
-        
-
-        <div class="container-about-us">
-            <h2>About Us</h2>
-            <p>We are a team of passionate individuals committed to delivering high-quality solutions. Our mission is to innovate and create impactful experiences for our customers.</p>
-
-        </div>
-
-    <footer>
-            <div class="footer-container">
-              <div class="footer-column">
-                <h3>About Us</h3>
-                <p>We provide quality web development resources, tutorials, and design inspiration for developers and designers.</p>
-              </div>
-              <div class="footer-column">
-                <h3>Quick Links</h3>
-                <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Portfolio</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </div>
-              <div class="footer-column">
-                <h3>Contact</h3>
-                <ul>
-                  <li>Email: hello@example.com</li>
-                  <li>Phone: +123 456 7890</li>
-                  <li>Address: 123 Main Street, City</li>
-                </ul>
-              </div>
-              <div class="footer-column">
-                <h3>Follow Us</h3>
-                <div class="footer-socials">
-                  <a href="#">F</a>
-                  <a href="#">T</a>
-                  <a href="#">I</a>
-                </div>
-              </div>
-            </div>
-            <div class="footer-bottom">
-              &copy; 2025 Your Company. All rights reserved.
-            </div>
-          </footer>
-
-   
 </body>
+
 </html>
